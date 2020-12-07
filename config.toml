@@ -1,78 +1,84 @@
-baseURL = "nkhi.github.io/blog"
+baseURL = "http://nkhi.github.io/blog"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Nuts and Bolts"
+theme = "hugo-ink"
 
-theme = "hugo-theme-cactus-plus"
-# Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
-hasCJKLanguage = false
+# Enable syntax highlighting.
+pygmentsstyle = "solarized-dark"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+# Number of posts to show in recent posts list (Optional). Defaults to 10.
+paginate = 10
+
+# Number of characters to show in summary.
+summaryLength = 20
 
 [params]
-	author = "site_author"
-	description = "Site Description"
-	bio = "author biography"
+    # Blog subtitle which appears below blog title. Supports markdown.
+    subtitle = "Personal blog of [Nikhi Bhambra](https://nikhi.ca)"
 
-	twitter = "your_twitter_id"
-	facebook = "your_facebook_id"
+    # Content types which are included in home page recent posts list.
+    mainSections = ["posts"]
 
-	enableRSS = true
-	enableToc = true
+    # Content types which are excludes Disqus comments.
+    disableDisqusTypes = ["page"]
 
-	enableDisqus = true
-	disqusShortname = "your_disqus_short_name"
+    # If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
+    featherIconsCDN = true
 
+    # Specify favicon (icons/i.png maps to static/icons/i.png). No favicon if not defined.
+    favicon = "icons/i.png"
 
-	enableSummary = true
-	# Set the value to true if use description in post front matter replace content summary
-	useDescriptionReplaceSummary = false
+    # Switch to dark mode or auto detect mode from OS (Optional).
+    # "dark" will set mode to dark and "auto" will switch to dark mode if OS is in dark mode.
+    mode = "dark" # "dark" or "auto"
 
+    # Custom CSS added to default styles. Files added to `static` folder is copied as it is to
+    # root by Hugo. For example if you have custom CSS file under `static/css/custom.css` then
+    # you can specify custom css path as `css/custom.css`.
+    customCSS = "css/custom.css"
+    # Custom CSS added to dark mode style.
+    customDarkCSS = "css/custom-dark.css"
 
-	enableGoogleAnalytics = true
-	enableBaiduAnalytics = false
-	# Set the value to your baidu analysis code if you want to use baidu analytics
-	baiduAnalytics = 'your_baidu_analysis_code'
+    # Custom list of Javascript files to load. Just like custom CSS you can place js files under
+    # `static/js` folder and specify path here as `js/script-name.js`. You can also specify full url,
+    # for example you may want to include external JS library.
+    customJS = ["js/abc.js", "js/xyz.js", "https://code.jquery.com/jquery-3.4.1.js"]
 
-	enableTwitterCard = true
-	# The url for twitter card image, default is avatar.png in static/images directory
-	twitterCardImage = ""
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
 
-	# Add custom assets with their paths relative to the static folder
-	customCSS = []
-	customJS  = []
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
 
-	# The variables below are optionally too and can be used to
-	# translate or customize each string of the theme.
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
 
-	# Navigation links
-	home = ""
-	about = ""
-	archive = ""
-	subscribe = ""
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
 
-	olderPosts = ""
-	newerPosts = ""
-	copyright = ""
+# Social media links which shows up on site header.
+# Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/nkhi/"
 
-	# show latest posts in single page
-	showLatestPosts = false
-	readMore = ""
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/nikhibhambra"
 
-	# Share
-	enableShare = true
-	tweet = ""
-	share = ""
-
-	# 404 page
-	title404 = ""
-	subtitle404 = ""
-
-	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-	iconFont = "font-awesome"
-  # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-  socialIconStyle = ""
-
-
-# Add additional social link entries underneath
-[social]
-	facebook-square = "https://www.facebook.com/nodejh"
-	twitter-square = "https://www.twitter.com/nodejh"
-	github-square = "https://www.github.com/nodejh"
+# Enable tags.
+[taxonomies]
+   tag = "tags"
