@@ -5,24 +5,24 @@
     
     
     
-    <link>/</link>
+    <link>/blog/</link>
     <description>Recent content on nikhi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 17 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello Friend</title>
-      <link>/posts/hello/</link>
+      <link>/blog/posts/hello/</link>
       <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/hello/</guid>
+      <guid>/blog/posts/hello/</guid>
       <description>
         
-          &lt;img src=&#34;/img/hello.jpg&#34;/&gt;
+          &lt;img src=&#34;/blog/blog/img/hello.jpg&#34;/&gt;
           
         
         
@@ -35,10 +35,10 @@
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>/blog/about/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>/blog/about/</guid>
       <description>
         
           
@@ -57,10 +57,10 @@ This theme is pretty basic and covers all of the essentials. All you have to do 
     
     <item>
       <title>Showcase</title>
-      <link>/posts/showcase/</link>
+      <link>/blog/posts/showcase/</link>
       <pubDate>Fri, 18 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/showcase/</guid>
+      <guid>/blog/posts/showcase/</guid>
       <description>
         
           
@@ -77,10 +77,10 @@ This theme is pretty basic and covers all of the essentials. All you have to do 
     
     <item>
       <title>A Demo Post</title>
-      <link>/posts/my-first-post/</link>
+      <link>/blog/posts/my-first-post/</link>
       <pubDate>Sat, 24 Jan 1987 17:53:05 -0500</pubDate>
       
-      <guid>/posts/my-first-post/</guid>
+      <guid>/blog/posts/my-first-post/</guid>
       <description>
         
           
@@ -98,10 +98,10 @@ Eternal-return prejudice superiority strong suicide ultimate intentions chaos ul
     
     <item>
       <title>Archive</title>
-      <link>/archive/</link>
+      <link>/blog/archive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/archive/</guid>
+      <guid>/blog/archive/</guid>
       <description>
         
           
