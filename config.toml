@@ -1,84 +1,66 @@
-baseURL = "http://nkhi.github.io/blog"
+baseurl = "/"
 languageCode = "en-us"
-title = "Nuts and Bolts"
-theme = "hugo-ink"
-
-# Enable syntax highlighting.
-pygmentsstyle = "solarized-dark"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-
-# Number of posts to show in recent posts list (Optional). Defaults to 10.
-paginate = 10
-
-# Number of characters to show in summary.
-summaryLength = 20
+theme = "hello-friend"
+paginate = 5
 
 [params]
-    # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "Personal blog of [Nikhi Bhambra](https://nikhi.ca)"
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
 
-    # Content types which are included in home page recent posts list.
-    mainSections = ["posts"]
+  # "light" or "dark"
+  defaultTheme = "dark"
 
-    # Content types which are excludes Disqus comments.
-    disableDisqusTypes = ["page"]
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
 
-    # If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
-    featherIconsCDN = true
+  # Show reading time in minutes for posts
+  showReadingTime = true
 
-    # Specify favicon (icons/i.png maps to static/icons/i.png). No favicon if not defined.
-    favicon = "icons/i.png"
+  # Show table of contents at the top of your posts (defaults to false)
+  # Alternatively, add this param to post front matter for specific posts
+  # toc = true
 
-    # Switch to dark mode or auto detect mode from OS (Optional).
-    # "dark" will set mode to dark and "auto" will switch to dark mode if OS is in dark mode.
-    mode = "dark" # "dark" or "auto"
+  # Show full page content in RSS feed items
+  #(default is Description or Summary metadata in the front matter)
+  # rssFullText = true
 
-    # Custom CSS added to default styles. Files added to `static` folder is copied as it is to
-    # root by Hugo. For example if you have custom CSS file under `static/css/custom.css` then
-    # you can specify custom css path as `css/custom.css`.
-    customCSS = "css/custom.css"
-    # Custom CSS added to dark mode style.
-    customDarkCSS = "css/custom-dark.css"
+[languages]
+  [languages.en]
+    title = "nikhi's blog"
+    subtitle = "A blog for Nikhi's words"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    writtenBy = "By"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+    # leave empty to disable, enter display text to enable
+    # lastModDisplay = ""
 
-    # Custom list of Javascript files to load. Just like custom CSS you can place js files under
-    # `static/js` folder and specify path here as `js/script-name.js`. You can also specify full url,
-    # for example you may want to include external JS library.
-    customJS = ["js/abc.js", "js/xyz.js", "https://code.jquery.com/jquery-3.4.1.js"]
+    [languages.en.params.logo]
+      logoText = "nikhi.ca/blog"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
 
-# Main menu which appears below site header.
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "All posts"
-url = "/posts"
-weight = 2
-
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 3
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
-
-# Social media links which shows up on site header.
-# Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
-[[params.social]]
-name = "Github"
-icon = "github"
-url = "https://github.com/nkhi/"
-
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/nikhibhambra"
-
-# Enable tags.
-[taxonomies]
-   tag = "tags"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "https://www.nikhi.ca/"
+#       [[languages.en.menu.main]]
+#        identifier = "about"
+#        name = "About"
+#        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Posts"
+        url = "/posts"
