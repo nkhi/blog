@@ -9,7 +9,7 @@ paginate = 5
   contentTypeName = "posts"
 
   # "light" or "dark"
-  defaultTheme = "light"
+  defaultTheme = "dark"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
@@ -28,7 +28,7 @@ paginate = 5
 [languages]
   [languages.en]
     title = "nikhi's blog"
-    subtitle = "A blog for Nikhi's words"
+    subtitle = ""
     keywords = ""
     copyright = ""
     menuMore = "Show more"
@@ -44,23 +44,15 @@ paginate = 5
     # lastModDisplay = ""
 
     [languages.en.params.logo]
-      logoText = "nikhi.ca/blog"
-      logoHomeLink = "/blog/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+      logoText = "./blog"
+      logoHomeLink = "/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "home"
         name = "Home"
         url = "https://www.nikhi.ca/"
-#       [[languages.en.menu.main]]
-#        identifier = "about"
-#        name = "About"
-#        url = "/about"
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Posts"
-        url = "/posts"
+        identifier = "list"
+        name = "Archive"
+        url = "/archive"
