@@ -5,92 +5,48 @@
     
     
     
-    <link>/blog/</link>
+    <link>/</link>
     <description>Recent content on nikhi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 17 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello Friend</title>
-      <link>/blog/posts/hello/</link>
+      <title>Why I&#39;m Using React Native &amp; Blitz.js</title>
+      <link>/posts/stack/</link>
       <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/hello/</guid>
+      <guid>/posts/stack/</guid>
       <description>
         
-          &lt;img src=&#34;/blog/blog/img/hello.jpg&#34;/&gt;
+          &lt;img src=&#34;/img/2.jpg&#34;/&gt;
           
         
         
         
-          &#34;Hello, friend?&#34; That&#39;s lame. Maybe I should give you a name?
+          Choosing a hybrid stack allowed me to write only Javascript for iOS, Android, &amp; Web development.
           
         
         </description>
     </item>
     
     <item>
-      <title>About</title>
-      <link>/blog/about/</link>
-      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      <title>What is Recordcrate?</title>
+      <link>/posts/wtf/</link>
+      <pubDate>Tue, 03 Jan 1662 00:00:00 +0000</pubDate>
       
-      <guid>/blog/about/</guid>
+      <guid>/posts/wtf/</guid>
       <description>
         
-          
-          
-          
-        
-        
-        
-          Hi there My name is Radek and I&amp;rsquo;m the author of this theme. I made it to help you present your ideas easier.
-We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
-This theme is pretty basic and covers all of the essentials. All you have to do is start typing!
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Showcase</title>
-      <link>/blog/posts/showcase/</link>
-      <pubDate>Fri, 18 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/posts/showcase/</guid>
-      <description>
-        
-          
-          
+          &lt;img src=&#34;/img/1.jpg&#34;/&gt;
           
         
         
         
-          Header 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. Donec quis dolor nec nunc mollis interdum vel in purus. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare. Nullam ut neque quam.
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>A Demo Post</title>
-      <link>/blog/posts/my-first-post/</link>
-      <pubDate>Sat, 24 Jan 1987 17:53:05 -0500</pubDate>
-      
-      <guid>/blog/posts/my-first-post/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          God faith philosophy faith suicide free war. Philosophy depths dead madness decrepit horror convictions of. Good free endless eternal-return evil ultimate battle faith. Sexuality gains philosophy good decrepit horror. Selfish insofar christian evil abstract mountains ideal will horror against disgust sexuality. Law burying transvaluation overcome morality.
-Eternal-return prejudice superiority strong suicide ultimate intentions chaos ultimate. Moral society derive free ubermensch virtues merciful overcome war burying ideal faithful. Zarathustra play truth salvation morality snare selfish convictions derive inexpedient right reason christianity right.
+          My motivations for creating a new kind of social music service.
           
         
         </description>
@@ -98,10 +54,10 @@ Eternal-return prejudice superiority strong suicide ultimate intentions chaos ul
     
     <item>
       <title>Archive</title>
-      <link>/blog/archive/</link>
+      <link>/archive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/blog/archive/</guid>
+      <guid>/archive/</guid>
       <description>
         
           
