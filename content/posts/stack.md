@@ -1,9 +1,9 @@
 +++
-title = "Why I'm Using React Native & Blitz.js"
+title = "Using Blitz.js & Kotlin Multiplatform"
 date = "2020-09-17"
 author = "Nikhi"
 cover = "img/2.jpg"
-description = "Choosing a hybrid stack allowed me to write only Javascript for iOS, Android, & Web development."
+description = "Why I chose a hybrid stack to simplfy cross-platform iOS, Android, & Web development."
 +++
 
 > To be released 2021-02-25
